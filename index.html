@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عروض اليوم الوطني 95 | 3WAY - خدمات السيارات الرياض</title>
+    <meta name="description" content="عروض اليوم الوطني 95 الحصرية من 3WAY! شفط الطعجات، دهان السيارات، خدمات احترافية بأسعار وطنية. احجز الآن!">
+    <meta name="keywords" content="عروض اليوم الوطني, شفط طعجات, دهان سيارات, خدمات سيارات الرياض, PDR, 3WAY">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-logo">🚗</div>
+            <h2>جاري تحضير العروض الحصرية...</h2>
+            <p>أقوى عروض اليوم الوطني 95</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    🇸🇦 عروض اليوم الوطني 95 🇸🇦
+                </div>
+                <h1>
+                    95 عام من الإنجاز<br>
+                    <span class="highlight">خدمة تليق بالإنجاز</span>
+                </h1>
+                <p class="hero-subtitle">
+                    أقوى العروض في تاريخ 3WAY • خصومات تصل لـ50% • خدمة احترافية بمعايير عالمية
+                </p>
+                
+                <div class="countdown-container">
+                    <div class="countdown-title">ينتهي العرض خلال:</div>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="days">23</span>
+                            <span class="countdown-label">يوم</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">12</span>
+                            <span class="countdown-label">ساعة</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">45</span>
+                            <span class="countdown-label">دقيقة</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">30</span>
+                            <span class="countdown-label">ثانية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#offers" class="btn-primary">
+                        <i class="fas fa-fire"></i>
+                        شاهد العروض الآن
+                    </a>
+                    <a href="tel:+966500000000" class="btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        اتصل الآن
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="car-showcase">
+                    <div class="car-svg">
+                        <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Car Shadow -->
+                            <ellipse cx="200" cy="150" rx="180" ry="40" fill="#006C35" opacity="0.3"/>
+                            <!-- Car Body -->
+                            <rect x="50" y="80" width="300" height="60" rx="30" fill="#fff"/>
+                            <rect x="70" y="60" width="260" height="40" rx="20" fill="#FFD700"/>
+                            <!-- Windows -->
+                            <rect x="80" y="70" width="80" height="25" rx="5" fill="#87CEEB" opacity="0.7"/>
+                            <rect x="240" y="70" width="80" height="25" rx="5" fill="#87CEEB" opacity="0.7"/>
+                            <!-- Wheels -->
+                            <circle cx="120" cy="140" r="25" fill="#333"/>
+                            <circle cx="120" cy="140" r="15" fill="#FFD700"/>
+                            <circle cx="280" cy="140" r="25" fill="#333"/>
+                            <circle cx="280" cy="140" r="15" fill="#FFD700"/>
+                            <!-- Details -->
+                            <rect x="180" y="85" width="40" height="10" rx="5" fill="#006C35"/>
+                            <text x="200" y="180" text-anchor="middle" fill="#006C35" font-size="12" font-weight="bold">3WAY</text>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="floating-elements">
+                    <div class="floating-icon">⭐</div>
+                    <div class="floating-icon">🛠️</div>
+                    <div class="floating-icon">✨</div>
+                    <div class="floating-icon">🎯</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="offers-section" id="offers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">عروضنا الحصرية لليوم الوطني 95</h2>
+                <p class="section-subtitle">خصومات استثنائية لفترة محدودة فقط</p>
+            </div>
+
+            <div class="offers-grid">
+                <!-- عرض الوطن الأساسي -->
+                <div class="offer-card">
+                    <div class="offer-badge">🔥 الأكثر طلباً</div>
+                    <h3 class="offer-title">عرض الوطن 95</h3>
+                    <div class="offer-price">495 <small>ريال</small></div>
+                    <div class="offer-original-price">بدلاً من 800 ريال</div>
+                    <ul class="offer-features">
+                        <li>شفط طعجات متعددة بتقنية PDR</li>
+                        <li>تلميع خارجي احترافي مجاناً</li>
+                        <li>فحص شامل للهيكل</li>
+                        <li>ضمان 6 أشهر</li>
+                        <li>ضيافة أصيلة</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد حجز عرض الوطن 95" class="btn-order">
+                        احجز الآن
+                    </a>
+                </div>
+
+                <!-- عرض دهان القطعة -->
+                <div class="offer-card">
+                    <div class="offer-badge">💎 جودة عالية</div>
+                    <h3 class="offer-title">دهان القطعة الاحترافي</h3>
+                    <div class="offer-price">695 <small>ريال</small></div>
+                    <div class="offer-original-price">بدون سمكرة</div>
+                    <ul class="offer-features">
+                        <li>دهان أي قطعة بجودة المصنع</li>
+                        <li>مطابقة اللون بالكمبيوتر</li>
+                        <li>دهانات أصلية معتمدة</li>
+                        <li>ضمان عامين على اللون</li>
+                        <li>مع السمكرة: 895 ريال</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد حجز خدمة دهان القطعة" class="btn-order">
+                        احجز الآن
+                    </a>
+                </div>
+
+                <!-- العرض الكبير - دهان كامل -->
+                <div class="offer-card special-offer">
+                    <div class="offer-badge">👑 العرض الملكي</div>
+                    <h3 class="offer-title">دهان كامل للسيارة</h3>
+                    <div class="offer-price">7995 <small>ريال</small></div>
+                    <div class="offer-original-price">بدلاً من 12000+ ريال</div>
+                    <ul class="offer-features">
+                        <li>دهان شامل بجودة عالمية</li>
+                        <li>3 طبقات حماية</li>
+                        <li>ضمان ذهبي 3 سنوات</li>
+                        <li>ادفع 50% واستخدم خلال سنة</li>
+                        <li>إمكانية التقسيط</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد حجز الدهان الكامل للسيارة" class="btn-order">
+                        احجز الآن
+                    </a>
+                </div>
+
+                <!-- الدهان المطاطي -->
+                <div class="offer-card">
+                    <div class="offer-badge">🇸🇦 وطني حصري</div>
+                    <h3 class="offer-title">دهان مطاطي بألوان الوطن</h3>
+                    <div class="offer-price">8995 <small>ريال</small></div>
+                    <div class="offer-original-price">أخضر أو أبيض ملكي</div>
+                    <ul class="offer-features">
+                        <li>دهان مطاطي كامل</li>
+                        <li>بألوان علم السعودية</li>
+                        <li>قابل للإزالة بدون ضرر</li>
+                        <li>حماية فائقة</li>
+                        <li>كن مميز في الاحتفالات</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد حجز الدهان المطاطي الوطني" class="btn-order">
+                        احجز الآن
+                    </a>
+                </div>
+
+                <!-- دهان الجنوط -->
+                <div class="offer-card">
+                    <div class="offer-badge">⭐ عرض خاص</div>
+                    <h3 class="offer-title">دهان 4 جنوط كاملة</h3>
+                    <div class="offer-price">795 <small>ريال</small></div>
+                    <div class="offer-original-price">وفّر 400 ريال</div>
+                    <ul class="offer-features">
+                        <li>دهان الـ4 جنوط كاملة</li>
+                        <li>أي لون تختاره</li>
+                        <li>إزالة الصدأ والخدوش</li>
+                        <li>طبقة حماية</li>
+                        <li>تسليم في يوم واحد</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد حجز دهان الجنوط" class="btn-order">
+                        احجز الآن
+                    </a>
+                </div>
+
+                <!-- خصومات الشفط -->
+                <div class="offer-card">
+                    <div class="offer-badge">🎯 خصم تلقائي</div>
+                    <h3 class="offer-title">برنامج خصومات الشفط</h3>
+                    <div class="offer-price">195 <small>ريال خصم</small></div>
+                    <div class="offer-original-price">على الفواتير أكثر من 1000</div>
+                    <ul class="offer-features">
+                        <li>فاتورة 400-1000: خصم 95 ريال</li>
+                        <li>فاتورة أكثر من 1000: خصم 195 ريال</li>
+                        <li>تطبيق تلقائي للخصم</li>
+                        <li>على جميع خدمات PDR</li>
+                        <li>بدون شروط إضافية</li>
+                    </ul>
+                    <a href="https://wa.me/966500000000?text=أريد الاستفسار عن خصومات الشفط" class="btn-order">
+                        اسأل عن خصمك
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title white-title">لماذا 3WAY؟</h2>
+                <p class="section-subtitle white-subtitle">الخيار الأول لخدمات السيارات في الرياض</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🏆</div>
+                    <h3 class="feature-title">خبرة وإتقان</h3>
+                    <p class="feature-description">فريق محترف مدرب على أحدث التقنيات العالمية في خدمات السيارات</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">💎</div>
+                    <h3 class="feature-title">جودة عالمية</h3>
+                    <p class="feature-description">نستخدم أفضل المواد والمعدات لضمان نتائج تضاهي الوكلاء</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">سرعة في التنفيذ</h3>
+                    <p class="feature-description">خدمة سريعة ودقيقة مع الالتزام بمواعيد التسليم</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">ضمان شامل</h3>
+                    <p class="feature-description">ضمانات طويلة على جميع خدماتنا لراحة بالك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ماذا يقول عملاؤنا؟</h2>
+                <p class="section-subtitle">آراء حقيقية من عملاء راضين</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"خدمة ممتازة وجودة عالية! أعادوا سيارتي كأنها جديدة بأسعار معقولة جداً. أنصح بشدة!"</p>
+                    <p class="testimonial-author">- أحمد المطيري، عميل منذ سنتين</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"تعاملت معهم في شفط الطعجات وكانت النتيجة فوق التوقعات. فريق محترف والأسعار تنافسية."</p>
+                    <p class="testimonial-author">- سارة العتيبي، عميلة VIP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section class="urgency-section">
+        <div class="container">
+            <h2 class="urgency-title">⏰ العرض ينتهي قريباً!</h2>
+            <p class="urgency-subtitle">لا تفوت الفرصة - احجز الآن وادفع لاحقاً</p>
+            <div class="cta-buttons centered">
+                <a href="https://wa.me/966500000000?text=أريد الحجز الآن والاستفادة من عروض اليوم الوطني" class="btn-primary">
+                    <i class="fab fa-whatsapp"></i>
+                    احجز عبر واتساب
+                </a>
+                <a href="tel:+966500000000" class="btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    اتصل الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>3WAY - خدمات السيارات</h3>
+                <p>الخيار الأول لخدمات السيارات في الرياض. نقدم خدمات احترافية بجودة عالمية وأسعار تنافسية.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>خدماتنا</h3>
+                <ul>
+                    <li><a href="#">شفط الطعجات PDR</a></li>
+                    <li><a href="#">دهان السيارات</a></li>
+                    <li><a href="#">تلميع وحماية</a></li>
+                    <li><a href="#">صيانة عامة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>معلومات التواصل</h3>
+                <p><i class="fas fa-phone"></i> +966 50 000 0000</p>
+                <p><i class="fab fa-whatsapp"></i> +966 50 000 0000</p>
+                <p><i class="fas fa-envelope"></i> info@3way-sa.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> الرياض - فرعان في خدمتكم</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>ساعات العمل</h3>
+                <p>السبت - الخميس: 8:00 ص - 8:00 م</p>
+                <p>الجمعة: مغلق</p>
+                <p><strong>خدمة الطوارئ: 24/7</strong></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 3WAY. جميع الحقوق محفوظة | صُنع بـ ❤️ في السعودية</p>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a href="https://wa.me/966500000000?text=مرحباً، أريد الاستفسار عن عروض اليوم الوطني 95" class="whatsapp-float" title="تواصل عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="tel:+966500000000" class="phone-float" title="اتصل الآن">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
